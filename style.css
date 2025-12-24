@@ -1,0 +1,238 @@
+.nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0;
+}
+
+
+.teklif {
+  padding-top: 20px;
+  margin-top: 60px;
+
+}
+
+.incele {
+  max-width: 750px;
+  margin: 60px auto;
+  padding: 30px 40px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 16px;
+  backdrop-filter: blur(6px);
+  text-align: center;
+}
+
+.incele {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #000000;
+}
+
+.tur {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.tur h1 {
+  font-size: xx-large;
+  color: rgb(63, 32, 32);
+}
+
+.tur p {
+  color: rgb(96, 96, 96);
+}
+
+.turlar {
+  width: 320px;
+  border-radius: 16px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+  color: rgb(12, 10, 10);
+  text-align: center;
+}
+
+.turlar img {
+  border-radius: 16px;
+  width: 100%;
+  height: 200px;
+}
+
+.turlar a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+footer {
+  border-top: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 60px auto 0;
+  padding: 40px 20px;
+  color: #777;
+  
+}
+
+footer section {
+  flex: 1;
+}
+
+footer h2 {
+  font-size: 30px;
+  color: #5a3d6d;
+}
+
+footer h3 {
+  color: #000;
+}
+
+footer p {
+  font-size: 14px;
+}
+
+.footer-alt {
+  border-top: 1px solid #eee;
+  max-width: 1200px;
+  margin: auto;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  color: #999;
+}
+
+.neden {
+  margin-top: 100px;
+  background-image: url(../html/img/neden.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 150px 20px;
+}
+
+.neden h2 {
+  font-size: xx-large;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  margin-bottom: 60px;
+}
+
+.neden-kutular {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.kutu {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.kutu h3 {
+  margin-bottom: 10px;
+  color: #000;
+}
+
+.kutu p {
+  font-size: 14px;
+  color: #666;
+}
+
+.social-icons i {
+  font-size: 28px;
+  color: #666664;
+  cursor: pointer;
+}
+
+.musteri {
+  margin-top: 100px;
+}
+
+.yorum {
+  margin-top: 100px;
+  display: flex;
+  gap: 20px;
+}
+
+.kart {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  color: #666664;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.kart img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.resim{
+  text-align: center;
+  margin-top: 100px;
+}
+.resim img {
+  height:500px;
+  width: 500px;
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 100px;
+  object-fit: cover;
+  background-color: #000;
+}
+.aciklama {
+  text-align: center;
+ max-width: 800px;
+  color: #000000;
+  margin-left: 400px;
+  padding-left: 150px;
+}
+.yan {
+    display: flex;
+    justify-content: center;  /* ORTALAR */
+    gap: 20px;                /* aralık */
+    margin-top: 30px;
+}
+
+.yan img {
+    width: 220px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.takim {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.kisi {
+    margin-bottom: 15px;
+}
+
+.kisi span {
+    color: #555;
+    font-size: 14px;
+}
+.hakk p {
+  margin-top: 100px;
+    text-align: center;
+}
+.iletisim {
+    text-align: center;
+    margin: 60px 0;
+}
+
+.iletisim p {
+    margin: 8px 0;
+    color: #555;
+}
+
