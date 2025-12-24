@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turizm</title>
+    <!-- CSS Bağlama (External CSS) -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+
+<body>
+       <header>
+
+        <nav class="navbar navbar-expand-md ">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">Turizm Merkezi</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="mynavbar">
+                    <ul class="navbar-nav me-auto nav nav-list d-flex justify-content-center">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Anasayfa</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle " href="tur.html" data-bs-toggle="dropdown">
+                                Turlar
+                            </a>
+                            <ul class="dropdown-menu bg-info">
+                                <li><a class="dropdown-item" href="turkiye.html">Yurtiçi Turlar</a></li>
+                                <li><a class="dropdown-item" href="yurtdisi.html">Yurtdışı Turlar</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="takim.html">Takımımız</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="hakkimizda.html">Hakkımızda</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="iletisim.html">İletişim</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section class="text-center"
+        style=" background-image: url(../html/img/giris.jpg); height: 800px; padding-top:120px;">
+        <h1 class="text-white fw-bold">Hayalinizdeki tatile bakıyorsunuz!</h1>
+        <h4 class="text-white">Dünyanın herhangi bir yerine seyahat edin.</h4>
+
+        <div class="d-flex justify-content-center mt-4">
+            <div class="input-group w-50">
+                <input type="text" class="form-control" placeholder="Aranacak metni giriniz.">
+                <button class="btn btn-dark btn-lg">Ara</button>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="teklif d-flex flex-column align-items-center mt-n3">
+        <h2 class="bas">En İyi Teklifler!</h2>
+        <h4 class="alt text-secondary">En çok tercih edilen turlarımıza göz atın.</h4>
+    </section>
+
+    <section class="tur">
+        <div class="turlar">
+            <a href="turkiye.html" target="_blank">
+                <img src="../html/img/ist.webp" alt="">
+                <h1>Türkiye</h1>
+            </a>
+            <p>Antalya, İstanbul, Ankara...</p>
+        </div>
+
+        <div class="turlar">
+            <a href="londra.html" target="_blank">
+                <img src="../html/img/londra.jpeg" alt="">
+                <h1>İngiltere</h1>
+            </a>
+            <p>Londra, Manchester, Liverpool...</p>
+        </div>
+
+        <div class="turlar">
+            <a href="italya.html" target="_blank">
+                <img src="../html/img/roma.jpg" alt="">
+                <h1>İtalya</h1>
+            </a>
+            <p>Roma, Milano, Venedik...</p>
+        </div>
+    </section>
+
+
+    <section class="neden">
+        <h2>Neden Bizi Tercih Etmelisiniz?</h2>
+
+        <div class="neden-kutular">
+            <div class="kutu">
+                <h3>Esnek İptal Seçenekleri</h3>
+                <p>Planlarınız değişirse kolayca iptal edebilirsiniz.</p>
+            </div>
+
+            <div class="kutu">
+                <h3>Deneyimli Rehberler</h3>
+                <p>Bölgeyi iyi bilen profesyonel rehberlerle güvenli yolculuk.</p>
+            </div>
+
+            <div class="kutu">
+                <h3>En İyi Fiyat</h3>
+                <p>Uygun fiyat garantisi.</p>
+            </div>
+
+            <div class="kutu">
+                <h3>7/24 Destek</h3>
+                <p>Her zaman yanınızdayız.</p>
+            </div>
+
+            <div class="kutu">
+                <h3>Özenle Seçilmiş Oteller</h3>
+                <p>Yüksek puanlı ve olumlu yorumlara sahip oteller.</p>
+            </div>
+
+            <div class="kutu">
+                <h3>Kaliteli Hizmet</h3>
+                <p>Binlerce müşteri tarafından güvenilen hizmet.</p>
+            </div>
+        </div>
+    </section>
+    <section class="musteri d-flex flex-column align-items-center mt-n3">
+        <h1>Müşterilerimiz ne diyor?</h1>
+        <h6>Müşterilerimizin referansları, sunduğumuz yüksek hizmet kalitesinin en iyi kanıtıdır.</h6>
+
+        <div class="yorum">
+            <div class="kart">
+                <img src="img\adam.png" alt="">
+                <h3>JAMES SMITH</h3>
+                <p>“Yakın zamanda yaptığım Colorado gezisi sırasında bana yaptığınız tüm yardımlar için size içten bir
+                    teşekkür iletmek istiyorum. Bu benim için paha biçilemezdi ve gerçekten çok değer verdim.”</p>
+            </div>
+
+            <div class="kart">
+                <img src="img\kadin.png" alt="">
+                <h3>MARY ANDERSON</h3>
+                <p>““Leslie bizim için mükemmel bir seyahat danışmanıydı ve güzergahımızı planlarken ihtiyaçlarımızı
+                    dikkate aldı. Verdiği her öneri kusursuzdu.”</p>
+            </div>
+
+            <div class="kart">
+                <img src="img\kiz.png" alt="">
+                <h3>SCARLETT JOHNSON</h3>
+                <p>“Andy’yi kesinlikle tavsiye ederim çünkü Yeni Zelanda, Avustralya ve Fransız Polinezyası’na yaptığım
+                    bir aylık gezide her şey sorunsuz ilerledi.”</p>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- JavaScript Bağlama -->
+    <script src="js/app.js"></script>
+</body>
+<footer>
+    <section>
+        <h2>Tourizto</h2>
+        <p>
+            Since 2002, we have been offering travel services of the highest quality,
+            combining our energy and enthusiasm.
+        </p>
+    </section>
+
+    <section>
+        <h3 class="fw-bold">Contact</h3>
+        <p><i class="fa-solid fa-location-dot"></i>732/21 Second Street, Manchester</p>
+        <p><i class="fa-solid fa-phone"></i>345-677-554</p>
+        <p> <i class='far fa-envelope-open'></i> info@demolink.org</p>
+    </section>
+
+    <section>
+        <div class="card border-0 shadow-none p-4 mb-4">
+            <h4 class="mb-4">Bizi Takip Edin</h4>
+            <div class="social-icons d-flex gap-3 fs-3">
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-youtube"></i>
+            </div>
+    </section>
+</footer>
+
+<div class="footer-alt">
+    © 2025. All rights reserved.
+    <span>Privacy Policy · Contacts · About</span>
+</div>
+
+</html>
